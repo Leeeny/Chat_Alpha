@@ -32,6 +32,7 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
 
     private ClientWindow() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setState(JFrame.ICONIFIED);
         setSize(WiDTH, HEIGHT);
         setLocationRelativeTo(null);
         setAlwaysOnTop(true);
